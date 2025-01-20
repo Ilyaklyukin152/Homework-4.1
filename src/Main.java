@@ -7,8 +7,9 @@ public class Main {
         while (total <= 2459000) {
             total = total + deposit;
             i++;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
-        System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        //System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
 
         System.out.println("\nЗадача 2");
         i = 0;
